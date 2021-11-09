@@ -28,6 +28,8 @@ get_header(); ?>
     </div>
 <?php  }
   echo paginate_links();
+  the_();
+  echo get_content();
 ?>
 </div>
 
